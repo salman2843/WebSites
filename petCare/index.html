@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Care Business</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a href="/" onclick="window.location.reload()">
+            <img src="images/logo.webp" alt="PetCare Logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Welcome to PetCare</h1>
+        <p class="lead">
+          We provide the best grooming, daycare, and walking services for your
+          furry friends!
+        </p>
+        <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 services-section">
+      <div class="container">
+        <h2 class="text-center mb-4 section-title">Our Services</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="images/grooming.jpg"
+                class="card-img-top"
+                alt="Grooming Service"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pet Grooming</h5>
+                <p class="card-text">
+                  Keep your pets looking their best with our professional
+                  grooming services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="images/dog_walking.jpg"
+                class="card-img-top"
+                alt="Walking Service"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Dog Walking</h5>
+                <p class="card-text">
+                  Daily walks to keep your furry friends happy and healthy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img
+                src="images/day_care.jpg"
+                class="card-img-top"
+                alt="Daycare Service"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Pet Daycare</h5>
+                <p class="card-text">
+                  A safe and fun environment for your pets while you're away.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 section-title">Our Pet Gallery</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <img src="images/image_1.jpg" class="img-fluid" alt="Pet 1" />
+              <div class="gallery-overlay">
+                <h5>Happy Pets</h5>
+                <p>Our lovely customers</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <img src="images/image_2.jpg" class="img-fluid" alt="Pet 2" />
+              <div class="gallery-overlay">
+                <h5>Grooming Time</h5>
+                <p>Professional care</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <img src="images/image_3.jpg" class="img-fluid" alt="Pet 3" />
+              <div class="gallery-overlay">
+                <h5>Playtime</h5>
+                <p>Fun activities</p>
+              </div>
+            </div>
+          </div>
+          <!-- Added more images -->
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <img src="images/image_4.jpg" class="img-fluid" alt="Pet 4" />
+              <div class="gallery-overlay">
+                <h5>Dog Walking</h5>
+                <p>Daily exercise</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <img src="images/image_5.jpg" class="img-fluid" alt="Pet 5" />
+              <div class="gallery-overlay">
+                <h5>Daycare Fun</h5>
+                <p>Social interaction</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="gallery-item">
+              <img src="images/image_6.jpg" class="img-fluid" alt="Pet 6" />
+              <div class="gallery-overlay">
+                <h5>Pet Training</h5>
+                <p>Professional guidance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 testimonials-section">
+      <div class="container">
+        <h2 class="text-center mb-4">What Our Clients Say</h2>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <blockquote class="blockquote text-center">
+                <p class="mb-0">
+                  "Amazing service! My dog loves the grooming sessions."
+                </p>
+                <footer class="blockquote-footer">Emily R.</footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center">
+                <p class="mb-0">
+                  "The daycare team is so friendly and caring."
+                </p>
+                <footer class="blockquote-footer">John D.</footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote text-center">
+                <p class="mb-0">
+                  "Highly recommend their dog walking services!"
+                </p>
+                <footer class="blockquote-footer">Sarah W.</footer>
+              </blockquote>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light contact-section">
+      <div class="container">
+        <h2 class="text-center mb-4 section-title">Contact Us</h2>
+        <form id="contactForm" novalidate>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <div class="btn-submit-wrapper">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-white mb-3">Quick Links</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#gallery">Pet Gallery</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-white mb-3">Contact Info</h5>
+            <ul class="list-unstyled footer-contact">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Pet Street, City,
+                Country
+              </li>
+              <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+              <li><i class="fas fa-envelope"></i> info@petcare.com</li>
+            </ul>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-white mb-3">Follow Us</h5>
+            <div class="social-links">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+
+        <!-- Copyright -->
+        <div class="text-center mt-4">
+          <p class="mb-0">&copy; 2025 PetCare. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/script.js"></script>
+  </body>
+</html>

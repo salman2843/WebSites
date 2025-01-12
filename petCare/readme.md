@@ -57,3 +57,7 @@ A modern and responsive website for a pet care business, featuring services like
 - JavaScript
 - Bootstrap 5
 - Font Awesome Icons
+
+## screenshot
+
+![screenshot](./screenshot.png)

@@ -58,6 +58,6 @@ A modern and responsive website for a pet care business, featuring services like
 - Bootstrap 5
 - Font Awesome Icons
 
-## screenshot
+## 📸 Screenshot
 
 ![screenshot](./screenshot.png)

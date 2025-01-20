@@ -21,5 +21,6 @@ A modern, responsive landing page with animated bubble effects and a sleek desig
 - Full View
   ![pc view](image-1.png)
 
--Mobile View
+  -Mobile View
+
 ![Mobile View](image-2.png)

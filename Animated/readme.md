@@ -15,3 +15,11 @@ A modern, responsive landing page with animated bubble effects and a sleek desig
 - HTML5
 - CSS3
 - Custom animations using @keyframes
+
+## Screenshot
+
+- Full View
+  ![pc view](image-1.png)
+
+-Mobile View
+![Mobile View](image-2.png)
